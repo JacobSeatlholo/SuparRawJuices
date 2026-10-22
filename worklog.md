@@ -23,3 +23,19 @@ Work Log:
 Stage Summary:
 - Demo site complete and browser-verified at / route
 - Pending: user must add public key (saved at download/suparraw-ssh-key.pub, printed in chat) to https://github.com/settings/keys; then `git push -u origin main` works
+
+---
+Task ID: 1-completion
+Agent: main (Z.ai)
+Task: Complete GitHub push after user added SSH key
+
+Work Log:
+- User added the Ed25519 public key to github.com/JacobSeatlholo
+- First push hit transient sandbox DNS failures for github.com
+- Hardened scripts/git-ssh-wrapper.py: resolve() with getaddrinfo/gethostbyname retries, IP cache (~/.ssh/github_ip_cache), known GitHub fallback IPs; connects via custom socket while keeping hostname for host-key identity
+- Push succeeded: main -> origin/main (git@github.com:JacobSeatlholo/SuparRawJuices.git), tracking set
+- Verified with git ls-remote: remote HEAD matches local HEAD; site commit 51edce2 in remote history
+
+Stage Summary:
+- Site live in repo github.com/JacobSeatlholo/SuparRawJuices (branch main)
+- SSH wrapper reusable for future pushes/fetches from this sandbox
