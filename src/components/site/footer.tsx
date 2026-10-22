@@ -105,7 +105,17 @@ export function Footer() {
       <div className="border-t border-cream/10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-cream/60 sm:flex-row sm:px-6">
           <p>© {new Date().getFullYear()} Super Raw Juices. All rights reserved.</p>
-          <p>Demo site. Built for Ave.</p>
+          <p>
+            Built by{" "}
+            <a
+              href="https://instagram.com/businesshustleworldwide"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-sun transition-colors hover:text-cream"
+            >
+              businesshustle
+            </a>
+          </p>
         </div>
       </div>
     </footer>
