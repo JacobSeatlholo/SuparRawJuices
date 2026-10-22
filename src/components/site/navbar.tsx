@@ -38,7 +38,7 @@ export function Navbar() {
         <a
           href="#top"
           className="flex items-center gap-3"
-          aria-label="Super Raw Juices — back to top"
+          aria-label="Super Raw Juices. Back to top"
         >
           <Logo className="h-11 w-11" />
           <span className="flex flex-col leading-none">

@@ -13,17 +13,17 @@ const perks = [
   {
     icon: MapPinned,
     title: "Where the people are",
-    body: "No fixed shop, no dead hours. The stand pops up where the foot traffic already is — Kloof Street, markets, festivals.",
+    body: "The stand sets up where people already are. Kloof Street, markets, festivals.",
   },
   {
     icon: CalendarClock,
-    title: "Fresh by the day",
-    body: "Fruit is bought and stacked the morning of every setup. If it isn't fresh, it doesn't make the table.",
+    title: "Fresh on the day",
+    body: "We buy the fruit on the morning of each setup. If it's not fresh, it doesn't go on the table.",
   },
   {
     icon: Store,
-    title: "Bookable, not findable",
-    body: "Want the Juice Man at your event or outside your shop? He plugs in, piles the fruit high and starts pressing.",
+    title: "You can book us",
+    body: "Want the stand at your event or outside your shop? Book it for the day and Ave gets pressing.",
   },
 ];
 
@@ -52,7 +52,7 @@ export function About() {
             <BadgeCheck className="h-5 w-5 text-pulp" aria-hidden />
             <div className="leading-tight">
               <p className="font-display text-sm tracking-wide text-leaf">
-                AVE — THE JUICE MAN
+                AVE THE JUICE MAN
               </p>
               <p className="text-[11px] font-semibold text-bark">
                 Kloof St, outside Spar
@@ -72,30 +72,27 @@ export function About() {
             Our story
           </p>
           <h2 className="font-display text-4xl leading-tight text-leaf sm:text-5xl">
-            You can&apos;t pin us down.
-            <span className="block text-pulp">That&apos;s the point.</span>
+            There&apos;s no shop.
+            <span className="block text-pulp">That&apos;s the idea.</span>
           </h2>
           <div className="space-y-4 text-base leading-relaxed text-bark">
             <p>
-              Super Raw Juices doesn&apos;t have a permanent home — and that is
-              exactly what makes it special. Ave sets up the stand on random
-              occasions outside Spar on Kloof Street and at markets around Cape
-              Town, wherever a crowd needs something cold, fresh and real. One
-              day it&apos;s the pavement on Kloof, the next it&apos;s a market
-              stall buzzing with Saturday shoppers.
+              Super Raw Juices doesn&apos;t have a shop, and that&apos;s the whole
+              idea. Ave sets up the stand outside Spar on Kloof Street and at
+              markets around Cape Town. If there are people who want something
+              cold and fresh, the stand goes there. One day it&apos;s on Kloof,
+              the next it&apos;s at a market.
             </p>
             <p>
-              Every setup is the same honest ritual: a table buried in
-              pineapples, oranges, beetroot, ginger and greens; a juicer
-              running all day; and smoothies blended to order while you watch.
-              No shopfront, no middlemen, no shortcuts — just the Juice Man,
-              the fruit and you.
+              Every setup looks the same. A table full of pineapples, oranges,
+              beetroot, ginger and greens. A juicer running all day. Smoothies
+              blended to order while you watch. It&apos;s just the Juice Man, the
+              fruit and you.
             </p>
             <p>
-              Being mobile isn&apos;t a limitation, it&apos;s the whole idea.
-              It means the freshest juice in town comes to where you already
-              are — and if where you already are is an event, a storefront or
-              your own market, you can book the whole operation.
+              Being mobile is the point. The juice comes to where you already
+              are. And if you run an event, a shop or a market, you can book
+              the stand for the day.
             </p>
           </div>
 

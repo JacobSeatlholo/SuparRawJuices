@@ -22,56 +22,56 @@ const menu: MenuItem[] = [
     ingredients: ["Strawberry", "Blueberry", "Apple", "Banana", "Pineapple"],
     category: "smoothie",
     price: "R40",
-    blurb: "Berry-forward and creamy — the crowd favourite on the blackboard.",
+    blurb: "The favourite on the blackboard. Sweet and creamy.",
   },
   {
     name: "The Tropical",
     ingredients: ["Mango", "Passionfruit", "Banana", "Pineapple", "Apple"],
     category: "smoothie",
     price: "R40",
-    blurb: "Pure Cape summer in a cup, blended thick and cold.",
+    blurb: "Mango and passionfruit, blended thick. Tastes like summer.",
   },
   {
     name: "Energy Booster",
     ingredients: ["Beetroot", "Ginger", "Apple", "Carrot", "Lemon", "Kale"],
     category: "juice",
     price: "R45",
-    blurb: "Earth, fire and citrus — pressed for the 3pm revival.",
+    blurb: "Beetroot and ginger with a citrus kick. Good for the afternoon slump.",
   },
   {
     name: "Super Juice",
     ingredients: ["Apple", "Pineapple", "Orange", "Carrot"],
     category: "juice",
     price: "R40",
-    blurb: "The all-rounder. Sweet, sharp and gone in four sips.",
+    blurb: "Sweet and sharp. Our best all rounder.",
   },
   {
     name: "Green Juice",
     ingredients: ["Spinach", "Kale", "Pineapple", "Cucumber", "Lemon"],
     category: "juice",
     price: "R40",
-    blurb: "The greens doing the most, with pineapple making it easy.",
+    blurb: "Spinach and kale, with pineapple to keep it sweet.",
   },
   {
     name: "Ginger Royal",
     ingredients: ["Apple", "Carrot", "Lemon", "Ginger"],
     category: "juice",
     price: "R40",
-    blurb: "A gingery kick that clears the sinuses and lifts the day.",
+    blurb: "Strong on ginger. Wakes you right up.",
   },
   {
     name: "Lemonade",
     ingredients: ["Apple", "Lemon"],
     category: "juice",
     price: "R30",
-    blurb: "Two ingredients, pressed sweet and sour. Old school.",
+    blurb: "Just apple and lemon. Sweet and sour.",
   },
   {
     name: "Orange",
     ingredients: ["Oranges. That's it."],
     category: "juice",
     price: "R30",
-    blurb: "Squeezed to order, nothing added, everything orange.",
+    blurb: "Orange juice. Squeezed to order. Nothing added.",
   },
 ];
 
@@ -156,9 +156,9 @@ export function MenuSection() {
             Picked. Pressed. Poured.
           </h2>
           <p className="max-w-2xl text-base leading-relaxed text-bark">
-            Straight off the stand&apos;s own banners — the same smoothies and
-            juices Ave serves on Kloof Street. Everything is made to order in
-            front of you, so it hits the cup at peak fresh.
+            This menu comes straight off our stand banners. It&apos;s the same
+            smoothies and juices Ave serves on Kloof Street. Everything is made
+            to order, right in front of you.
           </p>
         </motion.div>
 
@@ -204,8 +204,8 @@ export function MenuSection() {
         </Tabs>
 
         <p className="mt-8 text-xs italic text-bark">
-          Demo pricing shown — final prices to be confirmed by Ave. Sizes and
-          seasonal specials vary by stand.
+          Demo prices only. Ave will confirm the final prices. Sizes and
+          specials can change.
         </p>
       </div>
     </section>

@@ -19,8 +19,8 @@ export default function Home() {
       >
         <Megaphone className="h-4 w-4 shrink-0 text-sun" aria-hidden />
         <span>
-          Catch the stand outside Spar on Kloof Street — or book the Juice Man
-          for your event
+          Catch us outside Spar on Kloof Street. You can also book us for your
+          event
         </span>
       </a>
 

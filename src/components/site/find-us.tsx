@@ -7,24 +7,24 @@ import { Button } from "@/components/ui/button";
 const spots = [
   {
     icon: MapPin,
-    title: "Spar — Kloof Street",
+    title: "Spar, Kloof Street",
     tag: "Regular spot",
-    body: "The flagship setup: table out, banner up, fruit stacked to the sky outside Spar in Gardens. Random occasions, announced on Instagram.",
+    body: "Our main spot. Table out, banner up, fruit stacked high outside Spar in Gardens. The days change, so check Instagram.",
     meta: "Kloof Street, Gardens, Cape Town",
   },
   {
     icon: Store,
     title: "Markets around Cape Town",
     tag: "Rotating",
-    body: "From neighbourhood markets to bigger community days — if there's a crowd that drinks, the Juice Man is applying for a stall.",
+    body: "We take the stand to markets around the city. Small ones and big ones.",
     meta: "Various locations, weekends",
   },
   {
     icon: CalendarHeart,
     title: "Your event or storefront",
     tag: "Bookable",
-    body: "Weddings, park runs, office parks, shops that want the smell of fresh orange on their pavement. Book the stand for a day.",
-    meta: "Anywhere in Cape Town — see below",
+    body: "You can book the stand for the day. Event, shop, market. Fill in the form below.",
+    meta: "Anywhere in Cape Town. See below",
   },
 ];
 
@@ -46,9 +46,9 @@ export function FindUs() {
             Where&apos;s the Juice Man today?
           </h2>
           <p className="max-w-2xl text-base leading-relaxed text-bark">
-            No fixed address, no fixed hours — the pop-up life. Each week&apos;s
-            locations drop on Instagram, so give the stand a follow and you&apos;ll
-            always know where the fruit table is.
+            We don&apos;t have a fixed address. Each week&apos;s spots go up on
+            Instagram. Follow the stand and you&apos;ll always know where we
+            are.
           </p>
         </motion.div>
 
@@ -84,11 +84,11 @@ export function FindUs() {
         <div className="mt-10 flex flex-col items-start justify-between gap-4 rounded-2xl border-2 border-leaf bg-leaf p-6 sm:flex-row sm:items-center">
           <div>
             <p className="font-display text-xl tracking-wide text-cream">
-              This week&apos;s spots drop every Monday
+              New spots go up every Monday
             </p>
             <p className="mt-1 text-sm text-cream/80">
-              Follow the stand on Instagram — and find your next local gem on
-              Kloofstreet.online.
+              Follow us on Instagram. You can also find us on
+              kloofstreet.online.
             </p>
           </div>
           <Button

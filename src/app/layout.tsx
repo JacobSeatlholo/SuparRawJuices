@@ -21,9 +21,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("http://localhost:3000"),
-  title: "Super Raw Juices — Raw. Real. Revitalizing.",
+  title: "Super Raw Juices | Raw. Real. Revitalizing.",
   description:
-    "Cold-pressed juices and smoothies made from 100% fresh fruit. Find the Travelling Juice Man at Spar Kloof Street and markets around Cape Town — or book him for your event.",
+    "Fresh juice and smoothies made from 100% fruit. Look for the stand at Spar on Kloof Street and at markets around Cape Town, or book us for events.",
   keywords: [
     "Super Raw Juices",
     "juice Cape Town",
@@ -34,16 +34,16 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Super Raw Juices" }],
   openGraph: {
-    title: "Super Raw Juices — Raw. Real. Revitalizing.",
+    title: "Super Raw Juices | Raw. Real. Revitalizing.",
     description:
-      "100% fresh juices & smoothies. Catch the Travelling Juice Man at Spar Kloof Street, markets around Cape Town — or book him for your event.",
+      "100% fresh juices & smoothies. Look for the stand at Spar on Kloof Street and at markets around Cape Town, or book us for your event.",
     siteName: "Super Raw Juices",
     type: "website",
     images: [{ url: "/images/ave-kloof.jpg", width: 1080, height: 1620 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Super Raw Juices — Raw. Real. Revitalizing.",
+    title: "Super Raw Juices | Raw. Real. Revitalizing.",
     description:
       "100% fresh juices & smoothies. Cape Town's Travelling Juice Man.",
   },

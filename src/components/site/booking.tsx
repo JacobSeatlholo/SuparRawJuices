@@ -28,17 +28,17 @@ const offerings = [
   {
     icon: Music2,
     title: "Events & Festivals",
-    body: "Weddings, birthdays, markets, sport days, corporate parks. A full fruit table and unlimited pressing keeps the crowd cold and buzzing.",
+    body: "Weddings, birthdays, sport days, office parks. Fresh juice all day for your crowd.",
   },
   {
     icon: Store,
     title: "Storefront Pop-ups",
-    body: "Shops, salons, gyms — host the stand for a day and let the smell of fresh orange pull people through your door. Revenue-share or flat day rate.",
+    body: "Host the stand outside your shop, salon or gym for a day. It pulls people in. We can agree on a day rate or a share.",
   },
   {
     icon: Trees,
     title: "Markets & Community",
-    body: "School fundraisers, church fairs, park runs, community days. If it's Cape Town and it's got people, the Juice Man can set up.",
+    body: "School events, church fairs, community days. If there are people, the Juice Man can set up.",
   },
 ];
 
@@ -90,7 +90,7 @@ export function Booking() {
       toast({
         title: "Booking request sent!",
         description:
-          "Shukran! The Juice Man will WhatsApp you back to lock in the details.",
+          "Shukran! Ave will WhatsApp you back to sort the details.",
       });
       setForm(emptyForm);
     } catch (err) {
@@ -123,17 +123,16 @@ export function Booking() {
         >
           <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.3em] text-sun">
             <Megaphone className="h-4 w-4" aria-hidden />
-            The moat
+            Bookings
           </p>
           <h2 className="font-display text-4xl leading-tight sm:text-5xl">
             Book the Juice Man
             <span className="block text-sun">for your spot.</span>
           </h2>
           <p className="max-w-lg text-base leading-relaxed text-cream/85">
-            The stand is a travelling show. You bring the venue, Ave brings the
-            table — piled with fresh fruit, juicer running, banner up. It turns
-            any ordinary day into an event and any event into the highlight of
-            someone&apos;s week.
+            The stand moves. You bring the place, Ave brings the table. Fresh
+            fruit piled high, juicer running, banner up. It makes a normal day
+            feel special.
           </p>
 
           <div className="flex flex-col gap-4">
@@ -162,7 +161,7 @@ export function Booking() {
           </div>
 
           <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold text-cream/90">
-            {["Custom quote per day", "Cape Town & surrounds", "All fruit & gear included"].map(
+            {["Day price agreed upfront", "Cape Town and nearby", "All fruit and gear included"].map(
               (t) => (
                 <li key={t} className="flex items-center gap-1.5">
                   <CheckCircle2 className="h-4 w-4 text-sun" aria-hidden />
@@ -191,7 +190,7 @@ export function Booking() {
               </h3>
             </div>
             <p className="-mt-2 text-xs text-bark">
-              Tell us where and when — Ave will WhatsApp you back with a quote.
+              Tell us where and when. Ave will WhatsApp you back with a price.
             </p>
 
             <div className="grid gap-4 sm:grid-cols-2">
@@ -284,7 +283,7 @@ export function Booking() {
               <Textarea
                 id="bk-message"
                 rows={3}
-                placeholder="Tell us about the day — vibe, hours, power access, anything."
+                placeholder="Tell us about the day. Hours, power, anything we should know."
                 value={form.message}
                 onChange={(e) => update("message", e.target.value)}
               />

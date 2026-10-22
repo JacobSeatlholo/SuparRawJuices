@@ -23,8 +23,8 @@ export function Footer() {
             RAW. REAL. REVITALIZING.
           </p>
           <p className="max-w-xs text-sm leading-relaxed text-cream/75">
-            Cape Town&apos;s Travelling Juice Man. Fresh juices &amp; smoothies,
-            pressed to order wherever the people are.
+            Cape Town&apos;s travelling juice stand. Fresh juice and smoothies,
+            made to order.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export function Footer() {
       <div className="border-t border-cream/10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-cream/60 sm:flex-row sm:px-6">
           <p>© {new Date().getFullYear()} Super Raw Juices. All rights reserved.</p>
-          <p>Demo site — built with fresh code and fresh fruit.</p>
+          <p>Demo site. Built for Ave.</p>
         </div>
       </div>
     </footer>

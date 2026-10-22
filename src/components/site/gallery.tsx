@@ -7,7 +7,7 @@ const shots = [
   {
     src: "/images/stand-mall.jpg",
     alt: "Super Raw Juices stand inside a shopping centre, banner up and table covered in fresh fruit",
-    caption: "Mall pop-up — banner up, table loaded",
+    caption: "Mall pop-up. Banner up, table loaded",
     caption2: "Smoothies & juices under one banner",
   },
   {
@@ -42,9 +42,9 @@ export function Gallery() {
             Caught on camera
           </h2>
           <p className="max-w-2xl text-base leading-relaxed text-bark">
-            No stock photos — this is the actual table, the actual banner and
-            the actual man. Follow the Instagram stories to catch the next
-            setup live.
+            No stock photos here. This is the real table, the real banner and
+            the real man. Check our Instagram stories to see where we set up
+            next.
           </p>
         </motion.div>
 

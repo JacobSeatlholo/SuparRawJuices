@@ -44,9 +44,8 @@ export function Hero() {
           </h1>
 
           <p className="max-w-md text-base leading-relaxed text-bark sm:text-lg">
-            Juices and smoothies pressed from 100% fresh fruit — nothing from a
-            bottle, nothing from concentrate. You&apos;ll find the Juice Man and
-            his fruit-loaded table at{" "}
+            Juices and smoothies made from fresh fruit. Nothing from a
+            bottle, no concentrates. Look for the stand at{" "}
             <strong className="font-semibold text-leaf">
               Spar on Kloof Street
             </strong>{" "}
@@ -107,7 +106,7 @@ export function Hero() {
             />
             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-leaf-deep/70 to-transparent" />
             <p className="absolute bottom-4 left-4 right-4 text-sm font-bold text-cream drop-shadow">
-              The stand, piled high — oranges, beetroot, ginger &amp; greens.
+              The stand, piled high. Oranges, beetroot, ginger and greens.
             </p>
           </div>
 
