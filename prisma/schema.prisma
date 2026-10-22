@@ -1,0 +1,24 @@
+// Super Raw Juices — Prisma schema
+// Stores booking requests for "The Travelling Juice Man"
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Booking {
+  id        String   @id @default(cuid())
+  name      String
+  contact   String
+  type      String // event | storefront | market | other
+  date      String?  // requested date (free text for demo)
+  venue     String?  // venue / area
+  guests    String?  // approx guests
+  message   String?
+  status    String   @default("new") // new | confirmed | done
+  createdAt DateTime @default(now())
+}
