@@ -39,3 +39,18 @@ Work Log:
 Stage Summary:
 - Site live in repo github.com/JacobSeatlholo/SuparRawJuices (branch main)
 - SSH wrapper reusable for future pushes/fetches from this sandbox
+
+---
+Task ID: 2
+Agent: main (Z.ai)
+Task: Rewrite site copy so it does not read as AI written
+
+Work Log:
+- Removed every em dash from user facing copy across all components and metadata (page titles now use a pipe)
+- Rewrote copy in plain english: shorter sentences, no clever metaphors, kept natural contractions and local flavour (Shukran, Kloof St)
+- Replaced "THE MOAT" eyebrow with "BOOKINGS", "Bookable, not findable" with "You can book us", hero/story/menu/find-us/booking/gallery/footer copy simplified
+- Lint clean; verified hero, story, booking sections in browser (desktop + mobile)
+- Committed c424a40 and pushed to origin/main
+
+Stage Summary:
+- Copy now reads simple and human; site pushed to github.com/JacobSeatlholo/SuparRawJuices
